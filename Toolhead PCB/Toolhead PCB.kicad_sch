@@ -2710,7 +2710,7 @@
 		(dnp no)
 		(uuid "8fb5892a-ff86-451d-81c0-a83330e49ec5")
 		(property "Reference" "J8"
-			(at 136.652 130.81 90)
+			(at 136.906 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,8 +2718,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IR+ADXL345"
-			(at 132.334 132.842 90)
+		(property "Value" "IR/ADXL"
+			(at 133.604 134.112 90)
 			(effects
 				(font
 					(size 1.27 1.27)

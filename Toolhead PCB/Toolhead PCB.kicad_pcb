@@ -814,7 +814,7 @@
 				)
 			)
 		)
-		(property "Value" "IR+ADXL345"
+		(property "Value" "IR/ADXL"
 			(at 8.725 0.09 0)
 			(layer "F.Fab")
 			(uuid "1458b209-2236-4e72-ac08-95aca74613c9")
@@ -853,7 +853,7 @@
 		(path "/8fb5892a-ff86-451d-81c0-a83330e49ec5")
 		(sheetname "/")
 		(sheetfile "Toolhead PCB.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -2.65 5.19)
 			(end 2.65 5.19)
@@ -1457,7 +1457,7 @@
 		(path "/605ed779-6df7-4c7f-ac00-204b71bb051f")
 		(sheetname "/")
 		(sheetfile "Toolhead PCB.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.38 9)
 			(end 3.92 9)
