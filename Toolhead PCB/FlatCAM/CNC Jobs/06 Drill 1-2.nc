@@ -4,29 +4,29 @@
 (Type: G-code from Excellon)
 (Units: MM)
 
-(Created on Wednesday, 24 September 2025 at 14:52)
+(Created on Thursday, 25 September 2025 at 14:55)
 
 (This preprocessor is the default preprocessor.)
 (It is made to work with MACH3 compatible motion controllers.)
 
 
 (TOOLS DIAMETER: )
-(Tool: 1 -> Dia: 0.3)
+(Tool: 4 -> Dia: 1.2)
 
 (FEEDRATE Z: )
-(Tool: 1 -> Feedrate: 100.0)
+(Tool: 4 -> Feedrate: 100.0)
 
 (FEEDRATE RAPIDS: )
-(Tool: 1 -> Feedrate Rapids: 1500)
+(Tool: 4 -> Feedrate Rapids: 1500)
 
 (Z_CUT: )
-(Tool: 1 -> Z_Cut: -2.0)
+(Tool: 4 -> Z_Cut: -2.0)
 
 (Tools Offset: )
-(Tool: 1 -> Offset Z: 0.0)
+(Tool: 4 -> Offset Z: 0.0)
 
 (Z_MOVE: )
-(Tool: 1 -> Z_Move: 2.0)
+(Tool: 4 -> Z_Move: 2.0)
 
 (Z Start: None mm)
 (Z End: 2.0 mm)
@@ -35,7 +35,7 @@
 (Preprocessor Excellon: default)
 
 (X range:    1.9550 ...   35.9000  mm)
-(Y range:    0.9000 ...   21.4900  mm)
+(Y range:    5.9000 ...   26.4900  mm)
 
 (Spindle Speed: 0 RPM)
 G21
@@ -46,23 +46,11 @@ G01 F100.00
 G00 Z2.0000
 
 M03
-G00 X5.5900 Y9.0100
+G00 X28.1000 Y15.3900
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X14.7820 Y12.3220
-G01 Z-2.0000
-G01 Z0
-G00 Z2.0000
-G00 X17.3470 Y12.3220
-G01 Z-2.0000
-G01 Z0
-G00 Z2.0000
-G00 X19.9110 Y12.3220
-G01 Z-2.0000
-G01 Z0
-G00 Z2.0000
-G00 X22.4400 Y12.4000
+G00 X30.6400 Y15.3900
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000

@@ -4,29 +4,29 @@
 (Type: G-code from Excellon)
 (Units: MM)
 
-(Created on Wednesday, 24 September 2025 at 14:54)
+(Created on Thursday, 25 September 2025 at 14:54)
 
 (This preprocessor is the default preprocessor.)
 (It is made to work with MACH3 compatible motion controllers.)
 
 
 (TOOLS DIAMETER: )
-(Tool: 4 -> Dia: 1.0)
+(Tool: 3 -> Dia: 1.0)
 
 (FEEDRATE Z: )
-(Tool: 4 -> Feedrate: 100.0)
+(Tool: 3 -> Feedrate: 100.0)
 
 (FEEDRATE RAPIDS: )
-(Tool: 4 -> Feedrate Rapids: 1500)
+(Tool: 3 -> Feedrate Rapids: 1500)
 
 (Z_CUT: )
-(Tool: 4 -> Z_Cut: -2.0)
+(Tool: 3 -> Z_Cut: -2.0)
 
 (Tools Offset: )
-(Tool: 4 -> Offset Z: 0.0)
+(Tool: 3 -> Offset Z: 0.0)
 
 (Z_MOVE: )
-(Tool: 4 -> Z_Move: 2.0)
+(Tool: 3 -> Z_Move: 2.0)
 
 (Z Start: None mm)
 (Z End: 2.0 mm)
@@ -35,7 +35,7 @@
 (Preprocessor Excellon: default)
 
 (X range:    1.9550 ...   35.9000  mm)
-(Y range:    0.9000 ...   21.4900  mm)
+(Y range:    5.9000 ...   26.4900  mm)
 
 (Spindle Speed: 0 RPM)
 G21
@@ -46,59 +46,59 @@ G01 F100.00
 G00 Z2.0000
 
 M03
-G00 X3.3800 Y18.4300
+G00 X3.3800 Y23.4300
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X3.3800 Y20.9300
+G00 X3.3800 Y25.9300
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X14.8400 Y14.7300
+G00 X14.8400 Y19.7300
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X17.3800 Y14.7300
+G00 X17.3800 Y19.7300
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X19.9200 Y14.7300
+G00 X19.9200 Y19.7300
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X22.4600 Y14.7300
+G00 X22.4600 Y19.7300
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X28.8400 Y3.4500
+G00 X28.8400 Y8.4500
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X28.8400 Y5.9500
+G00 X28.8400 Y10.9500
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X33.7850 Y18.4900
+G00 X33.7850 Y23.4900
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X33.7850 Y20.9900
+G00 X33.7850 Y25.9900
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X22.4600 Y17.2700
+G00 X22.4600 Y22.2700
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X19.9200 Y17.2700
+G00 X19.9200 Y22.2700
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X17.3800 Y17.2700
+G00 X17.3800 Y22.2700
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X14.8400 Y17.2700
+G00 X14.8400 Y22.2700
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
