@@ -1,1 +1,2 @@
 flatcam "/Users/colinng/Code/OpenSource/OpenHardware/PositronV3/Toolhead PCB/FlatCAM/Toolhead PCB.FlatPrj"
+find /Volumes/CUBIKO -name "._*" -delete
