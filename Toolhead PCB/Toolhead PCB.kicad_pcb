@@ -4980,11 +4980,11 @@
 		(uuid "474fd762-ed46-402e-aea3-0e4886e1f47d")
 	)
 	(gr_circle
-		(center 117.45 52.4)
-		(end 119.5 52.4)
+		(center 117.45 52.8)
+		(end 119.75 52.8)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -5025,7 +5025,7 @@
 	)
 	(via
 		(at 126.25 65.5)
-		(size 3.126)
+		(size 3.125001)
 		(drill 3.125)
 		(layers "F.Cu" "B.Cu")
 		(teardrops
@@ -5043,16 +5043,8 @@
 		(uuid "070fc580-ac09-4082-8124-c3334dd64070")
 	)
 	(via
-		(at 117.45 52.4)
-		(size 4.001)
-		(drill 4)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "4da12a2e-63b4-4229-bc97-26c62e4119c4")
-	)
-	(via
 		(at 107.75 65.5)
-		(size 3.126)
+		(size 3.125001)
 		(drill 3.125)
 		(layers "F.Cu" "B.Cu")
 		(teardrops
@@ -5460,6 +5452,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "314148dd-70f2-44b6-9e1e-a3f2f0ae6eaa")
+	)
+	(via
+		(at 117.45 52.8)
+		(size 4.500001)
+		(drill 4.5)
+		(layers "F.Cu" "B.Cu")
+		(net 5)
+		(uuid "4da12a2e-63b4-4229-bc97-26c62e4119c4")
 	)
 	(segment
 		(start 125.39 56.83)
