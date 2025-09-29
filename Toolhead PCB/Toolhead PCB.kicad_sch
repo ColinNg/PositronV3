@@ -1220,6 +1220,17 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 115.57) (xy 119.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1192a7cd-3576-4b44-bbfb-6e0d074030c3")
+	)
+	(wire
+		(pts
 			(xy 118.11 130.81) (xy 152.4 130.81)
 		)
 		(stroke
@@ -1648,17 +1659,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 119.38 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "9d35a1fb-8879-4ba2-bcce-6c5531a14889")
-	)
-	(wire
-		(pts
 			(xy 137.16 104.14) (xy 132.08 104.14)
 		)
 		(stroke
@@ -1919,6 +1919,147 @@
 		)
 		(uuid "ff16c30d-3634-4385-b350-7b90a5743397")
 	)
+	(label "CS"
+		(at 139.7 105.41 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "03375e45-31d7-4304-af3d-991d3205dbfb")
+	)
+	(label "MI"
+		(at 142.24 105.41 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "11d861b7-b6f4-4c11-9bbf-b28cef50e97a")
+	)
+	(label "GND"
+		(at 114.3 113.03 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b976f84-20e9-4f04-a8dc-1ecdd455bddd")
+	)
+	(label "Servo"
+		(at 125.73 107.95 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "20bfec52-dade-48b7-8d92-0ea44c0205ca")
+	)
+	(label "+24V"
+		(at 151.13 118.11 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cab1c50-cf57-4ef3-8cd1-bf378309c891")
+	)
+	(label "FAN3- Part"
+		(at 114.3 105.41 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "36e31f81-54db-4d16-838c-a4c7b3328d2a")
+	)
+	(label "SC"
+		(at 147.32 105.41 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d264365-f3fc-4ec0-9056-92ea931c6311")
+	)
+	(label "FAN2- Heatbreak"
+		(at 114.3 102.87 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "45d642ac-747d-4f57-8b58-0e3809c34f85")
+	)
+	(label "MO"
+		(at 144.78 105.41 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "640c53f3-775c-4504-85f7-229c07971361")
+	)
+	(label "5V"
+		(at 114.3 115.57 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(color 255 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a1554df-216a-4f26-8ca1-3f7404b46189")
+	)
+	(label "Z-Stop"
+		(at 114.3 110.49 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "8846c89f-0f7f-4729-a57c-ec0127138d8b")
+	)
+	(label "µProbe"
+		(at 125.73 113.03 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "94dfb0bc-82d2-45b0-b6bd-7b2075c9b130")
+	)
+	(label "TH0+"
+		(at 114.3 107.95 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "acda97fd-dd21-4fd2-9cc7-b970153c29c6")
+	)
+	(label "Heater-"
+		(at 153.67 118.11 270)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca57c31e-732f-4d6c-85f9-450cb27eb8aa")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 130.81 107.95 180)
@@ -1936,8 +2077,8 @@
 				)
 			)
 		)
-		(property "Value" "MicroProbe"
-			(at 129.032 97.79 0)
+		(property "Value" "µProbe"
+			(at 127.254 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,8 +2154,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Thermistor"
-			(at 145.034 97.282 0)
+		(property "Value" "Therm."
+			(at 148.59 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2294,7 @@
 		(dnp no)
 		(uuid "56520b96-34c4-4a04-a57e-2cfa271f8fa9")
 		(property "Reference" "J1"
-			(at 151.384 109.474 90)
+			(at 155.702 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2303,7 @@
 			)
 		)
 		(property "Value" "PicoA"
-			(at 149.86 111.506 90)
+			(at 154.178 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2371,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Heatbreak Fan"
+		(property "Value" "Heatbreak"
 			(at 148.336 134.112 0)
 			(effects
 				(font
@@ -2291,7 +2432,7 @@
 		(dnp no)
 		(uuid "7aa8f1ee-dba1-4954-80dd-bb269aacba8f")
 		(property "Reference" "J4"
-			(at 158.496 103.378 0)
+			(at 164.846 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2441,7 @@
 			)
 		)
 		(property "Value" "Heater"
-			(at 156.972 105.156 0)
+			(at 163.322 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,8 +2673,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Part Fan"
-			(at 123.444 133.858 0)
+		(property "Value" "Part"
+			(at 120.904 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
