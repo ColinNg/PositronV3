@@ -2082,8 +2082,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Therm."
-			(at 154.94 96.266 0)
+		(property "Value" "Thermistor"
+			(at 153.162 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)

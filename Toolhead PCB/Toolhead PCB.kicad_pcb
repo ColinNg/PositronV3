@@ -147,6 +147,7 @@
 		(property "Reference" "J4"
 			(at 2.5 -4 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "60756a5c-e588-42d4-b1af-769a7505bf92")
 			(effects
 				(font
@@ -156,12 +157,12 @@
 			)
 		)
 		(property "Value" "Heater"
-			(at 2.5 4 90)
-			(layer "F.Fab")
+			(at 7 0.140584 180)
+			(layer "F.SilkS")
 			(uuid "6ccf2e0e-507f-4467-861d-af3c107d3e7a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.635 0.635)
 					(thickness 0.15)
 				)
 			)
@@ -743,6 +744,7 @@
 		(property "Reference" "J5"
 			(at 1.25 -3.51 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "354c7672-46cc-488d-b01a-cdaf0916a423")
 			(effects
 				(font
@@ -751,13 +753,13 @@
 				)
 			)
 		)
-		(property "Value" "Therm."
-			(at 1.25 10.4 90)
-			(layer "F.Fab")
+		(property "Value" "Thermistor"
+			(at 5.54 0.165584 180)
+			(layer "F.SilkS")
 			(uuid "73e9e40b-a882-4d60-aff1-38f3b8fb8a3c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.635 0.635)
 					(thickness 0.15)
 				)
 			)
@@ -1226,7 +1228,7 @@
 			)
 		)
 		(property "Value" "IR/ADXL"
-			(at 1.58 -1.325 0)
+			(at 1.460584 8.875 0)
 			(layer "F.SilkS")
 			(uuid "3cb2ea35-c811-41c2-81a8-ee3d0695dc83")
 			(effects
@@ -1883,13 +1885,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2 -5 -4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -1902,6 +1904,7 @@
 		(property "Reference" "J3"
 			(at 0.61 2.550584 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "63663b5e-d3eb-4fbe-81a0-ee9024529890")
 			(effects
 				(font
@@ -1912,12 +1915,12 @@
 			)
 		)
 		(property "Value" "PicoC"
-			(at 5.61 1.450584 90)
-			(layer "B.Fab")
+			(at 8.11 1.350584 90)
+			(layer "B.SilkS")
 			(uuid "a335b6a5-300b-4121-8ddc-32ba08ee2cfc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.635 0.635)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -1953,7 +1956,7 @@
 		(path "/7bb94372-3648-468d-a42a-1c23676d3fbc")
 		(sheetname "/")
 		(sheetfile "Toolhead PCB.kicad_sch")
-		(attr through_hole)
+		(attr through_hole allow_missing_courtyard)
 		(fp_line
 			(start 12.06 -2.91)
 			(end 12.06 1.81)
@@ -3165,6 +3168,7 @@
 		(property "Reference" "J1"
 			(at -2.11 0.030584 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d2b4438e-ceae-4753-be2a-8356b112a599")
 			(effects
 				(font
@@ -3175,12 +3179,12 @@
 			)
 		)
 		(property "Value" "PicoA"
-			(at 2.59 -1.069416 90)
-			(layer "B.Fab")
+			(at 4.99 -1.969416 90)
+			(layer "B.SilkS")
 			(uuid "130d0945-b6af-4592-ba5d-a86d3c7025b1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.635 0.635)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3376,6 +3380,7 @@
 		(property "Reference" "J2"
 			(at 2.31 -3.569416 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "9d2b9520-6c13-46d4-9786-be2c7cfd0f2e")
 			(effects
 				(font
@@ -3386,12 +3391,12 @@
 			)
 		)
 		(property "Value" "PicoB"
-			(at 5.51 -1.469416 90)
-			(layer "B.Fab")
+			(at 8.11 1.130584 90)
+			(layer "B.SilkS")
 			(uuid "45150a27-d7a2-46eb-b22f-5882921fac6c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.635 0.635)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3427,7 +3432,7 @@
 		(path "/32f4a6db-7327-4142-bd73-79baa094b408")
 		(sheetname "/")
 		(sheetfile "Toolhead PCB.kicad_sch")
-		(attr through_hole)
+		(attr through_hole allow_missing_courtyard)
 		(fp_line
 			(start 12.06 -2.91)
 			(end 12.06 1.81)
