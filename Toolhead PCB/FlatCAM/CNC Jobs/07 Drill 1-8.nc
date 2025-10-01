@@ -4,7 +4,7 @@
 (Type: G-code from Excellon)
 (Units: MM)
 
-(Created on Tuesday, 30 September 2025 at 03:23)
+(Created on Tuesday, 30 September 2025 at 21:20)
 
 (This preprocessor is the default preprocessor.)
 (It is made to work with MACH3 compatible motion controllers.)
@@ -34,8 +34,8 @@
 (Steps per circle: 16)
 (Preprocessor Excellon: default)
 
-(X range:    3.0340 ...   30.2590  mm)
-(Y range:    1.7350 ...   25.0600  mm)
+(X range:    1.2490 ...   29.5000  mm)
+(Y range:    1.0250 ...   24.3600  mm)
 
 (Spindle Speed: 10000 RPM)
 G21
@@ -47,11 +47,11 @@ G00 Z2.0000
 
 M03 S10000
 G4 P1
-G00 X29.3590 Y4.1000
+G00 X28.6000 Y2.7000
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
-G00 X29.3590 Y9.1000
+G00 X28.6000 Y7.7000
 G01 Z-2.0000
 G01 Z0
 G00 Z2.0000
