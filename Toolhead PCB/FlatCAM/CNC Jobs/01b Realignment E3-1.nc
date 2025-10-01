@@ -4,7 +4,7 @@
 (Type: G-code from Geometry)
 (Units: MM)
 
-(Created on Tuesday, 30 September 2025 at 21:12)
+(Created on Wednesday, 01 October 2025 at 15:38)
 
 (This preprocessor is the default preprocessor.)
 (It is made to work with MACH3 compatible motion controllers.)
@@ -14,7 +14,7 @@
 (Feedrate_Z: 50.0 mm/min)
 (Feedrate rapids 1500.0 mm/min)
 
-(Z_Cut: -2.4 mm)
+(Z_Cut: -2.0 mm)
 (DepthPerCut: 0.8 mm <=>3 passes)
 (Z_Move: 2.0 mm)
 (Z Start: None mm)
@@ -35,7 +35,6 @@ G01 F100.00
 G00 Z2.0000
 
 M03 S10000.0
-G4 P1.0
 G01 F100.00
 G00 X2.4481 Y-3.0000
 G01 F50.00
@@ -111,7 +110,7 @@ G01 X2.4395 Y-3.0874
 G01 X2.4481 Y-3.0000
 G00 X2.4481 Y-3.0000
 G01 F50.00
-G01 Z-2.4000
+G01 Z-2.0000
 G01 F100.00
 G01 X2.4395 Y-3.0874
 G01 X2.4140 Y-3.1715
@@ -220,7 +219,7 @@ G01 X29.4395 Y-3.0874
 G01 X29.4481 Y-3.0000
 G00 X29.4481 Y-3.0000
 G01 F50.00
-G01 Z-2.4000
+G01 Z-2.0000
 G01 F100.00
 G01 X29.4395 Y-3.0874
 G01 X29.4140 Y-3.1715
@@ -329,7 +328,7 @@ G01 X29.4395 Y29.3126
 G01 X29.4481 Y29.4000
 G00 X29.4481 Y29.4000
 G01 F50.00
-G01 Z-2.4000
+G01 Z-2.0000
 G01 F100.00
 G01 X29.4395 Y29.3126
 G01 X29.4140 Y29.2285
@@ -438,7 +437,7 @@ G01 X2.4395 Y29.3126
 G01 X2.4481 Y29.4000
 G00 X2.4481 Y29.4000
 G01 F50.00
-G01 Z-2.4000
+G01 Z-2.0000
 G01 F100.00
 G01 X2.4395 Y29.3126
 G01 X2.4140 Y29.2285
