@@ -4,7 +4,7 @@
 (Type: G-code from Geometry)
 (Units: MM)
 
-(Created on Tuesday, 30 September 2025 at 21:17)
+(Created on Thursday, 02 October 2025 at 11:22)
 
 (This preprocessor is the default preprocessor.)
 (It is made to work with MACH3 compatible motion controllers.)
@@ -25,7 +25,7 @@
 (X range:    0.4570 ...   30.2621  mm)
 (Y range:    0.2879 ...   24.8721  mm)
 
-(Spindle Speed: 2000.0 RPM)
+(Spindle Speed: 10000.0 RPM)
 G21
 G90
 G94
@@ -33,8 +33,8 @@ G94
 G01 F100.00
 G00 Z2.0000
 
-M03 S2000.0
-G4 P1.0
+M03 S10000.0
+G4 P2.0
 G01 F100.00
 G00 X2.3076 Y6.2218
 G01 F50.00
