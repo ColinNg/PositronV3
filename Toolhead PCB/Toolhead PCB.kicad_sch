@@ -2274,7 +2274,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "32f4a6db-7327-4142-bd73-79baa094b408")
 		(property "Reference" "J2"
 			(at 149.86 102.616 0)
@@ -2292,7 +2292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "Positron V3:SolderWire-0.1sqmm_1x06_P2.0mm_D0.4mm_OD1mm"
 			(at 153.67 115.57 0)
 			(effects
 				(font
@@ -2560,7 +2560,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7bb94372-3648-468d-a42a-1c23676d3fbc")
 		(property "Reference" "J3"
 			(at 165.608 102.108 0)
@@ -2578,7 +2578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+		(property "Footprint" "Positron V3:SolderWire-0.1sqmm_1x06_P2.0mm_D0.4mm_OD1mm"
 			(at 168.91 115.57 0)
 			(effects
 				(font
