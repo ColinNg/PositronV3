@@ -4,7 +4,7 @@
 (Type: G-code from Geometry)
 (Units: MM)
 
-(Created on Tuesday, 07 October 2025 at 18:11)
+(Created on Friday, 10 October 2025 at 14:41)
 
 (This preprocessor is the default preprocessor.)
 (It is made to work with MACH3 compatible motion controllers.)
