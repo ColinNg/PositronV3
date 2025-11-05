@@ -1,0 +1,218 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
+%TF.CreationDate,2025-10-10T13:09:45-07:00*%
+%TF.ProjectId,Toolhead PCB,546f6f6c-6865-4616-9420-5043422e6b69,0.5*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-10-10 13:09:45*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10RoundRect,0.187500X0.687500X-0.412500X0.687500X0.412500X-0.687500X0.412500X-0.687500X-0.412500X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.750000X1.200000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12RoundRect,0.750000X0.750000X-0.750000X0.750000X0.750000X-0.750000X0.750000X-0.750000X-0.750000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13C,3.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14RoundRect,0.250000X0.569153X-0.773670X0.879736X0.385441X-0.569153X0.773670X-0.879736X-0.385441X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD15HorizOval,1.700000X-0.144889X0.038823X0.144889X-0.038823X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD16R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD17C,1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD18RoundRect,0.250000X-0.350000X-0.625000X0.350000X-0.625000X0.350000X0.625000X-0.350000X0.625000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD19O,1.200000X1.750000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD20C,2.300000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD21RoundRect,0.250000X0.750000X-0.600000X0.750000X0.600000X-0.750000X0.600000X-0.750000X-0.600000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD22O,2.000000X1.700000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD23C,1.000000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J3,1,Pin_1*%
+%TO.N,/5V*%
+X121580000Y-58010000D03*
+D11*
+%TO.P,J3,2,Pin_2*%
+%TO.N,/GND*%
+X121580000Y-56010000D03*
+%TO.P,J3,3,Pin_3*%
+%TO.N,/Z-Stop*%
+X121580000Y-54010000D03*
+%TO.P,J3,4,Pin_4*%
+%TO.N,/TH0+*%
+X121580000Y-52010000D03*
+%TO.P,J3,5,Pin_5*%
+%TO.N,/FAN3- Part*%
+X121580000Y-50010000D03*
+%TO.P,J3,6,Pin_6*%
+%TO.N,/FAN2- Heatbreak*%
+X121580000Y-48010000D03*
+%TD*%
+%TO.P,J2,1,Pin_1*%
+%TO.N,/\u00B5Probe*%
+X118400000Y-58010000D03*
+%TO.P,J2,2,Pin_2*%
+%TO.N,/Servo*%
+X118400000Y-56010000D03*
+%TO.P,J2,3,Pin_3*%
+%TO.N,/SC*%
+X118400000Y-54010000D03*
+%TO.P,J2,4,Pin_4*%
+%TO.N,/MO*%
+X118400000Y-52010000D03*
+%TO.P,J2,5,Pin_5*%
+%TO.N,/MI*%
+X118400000Y-50010000D03*
+%TO.P,J2,6,Pin_6*%
+%TO.N,/CS*%
+X118400000Y-48010000D03*
+%TD*%
+D12*
+%TO.P,J4,1,Pin_1*%
+%TO.N,/Heater-*%
+X127600000Y-54300000D03*
+D13*
+%TO.P,J4,2,Pin_2*%
+%TO.N,/+24V*%
+X127600000Y-49300000D03*
+%TD*%
+D14*
+%TO.P,J5,1,Pin_1*%
+%TO.N,/TH0+*%
+X100748862Y-54315776D03*
+D15*
+%TO.P,J5,2,Pin_2*%
+%TO.N,/GND*%
+X101395909Y-51900961D03*
+%TD*%
+D16*
+%TO.P,J8,1,O*%
+%TO.N,/Z-Stop*%
+X112299416Y-63265000D03*
+D17*
+%TO.P,J8,2,G*%
+%TO.N,/GND*%
+X109759416Y-63265000D03*
+%TO.P,J8,3,V*%
+%TO.N,/5V*%
+X107219416Y-63265000D03*
+D16*
+%TO.P,J8,4,CS*%
+%TO.N,/CS*%
+X107219416Y-60725000D03*
+D17*
+%TO.P,J8,5,MI*%
+%TO.N,/MI*%
+X109759416Y-60725000D03*
+%TO.P,J8,6,MO*%
+%TO.N,/MO*%
+X112299416Y-60725000D03*
+%TO.P,J8,7,SC*%
+%TO.N,/SC*%
+X114839416Y-60725000D03*
+%TD*%
+D18*
+%TO.P,J9,1,Pin_1*%
+%TO.N,/\u00B5Probe*%
+X107869416Y-69000000D03*
+D19*
+%TO.P,J9,2,Pin_2*%
+%TO.N,/GND*%
+X109869416Y-69000000D03*
+%TO.P,J9,3,Pin_3*%
+%TO.N,/Servo*%
+X111869416Y-69000000D03*
+%TO.P,J9,4,Pin_4*%
+%TO.N,/5V*%
+X113869416Y-69000000D03*
+%TO.P,J9,5,Pin_5*%
+%TO.N,/GND*%
+X115869416Y-69000000D03*
+%TD*%
+D20*
+%TO.P,J1,1,Pin_1*%
+%TO.N,/Heater-*%
+X125800000Y-53000000D03*
+%TO.P,J1,2,Pin_2*%
+%TO.N,/+24V*%
+X125800000Y-48200000D03*
+%TD*%
+D21*
+%TO.P,J7,1,Pin_1*%
+%TO.N,/+24V*%
+X102559416Y-70440000D03*
+D22*
+%TO.P,J7,2,Pin_2*%
+%TO.N,/FAN3- Part*%
+X102559416Y-67940000D03*
+%TD*%
+D21*
+%TO.P,J6,1,Pin_1*%
+%TO.N,/+24V*%
+X122199416Y-70460000D03*
+D22*
+%TO.P,J6,2,Pin_2*%
+%TO.N,/FAN2- Heatbreak*%
+X122199416Y-67960000D03*
+%TD*%
+D23*
+%TO.N,/GND*%
+X109809416Y-63320000D02*
+X109759416Y-63270000D01*
+%TD*%
+M02*
